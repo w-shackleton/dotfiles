@@ -3,7 +3,8 @@ Dotfiles
 
 To install:
 
-    git clone <repo> ~/.dotfiles
+    git clone https://github.com/w-shackleton/dotfiles.git ~/.dotfiles
+    cd ~/.dotfiles
     git submodule init
     git submodule update
     ln -s ~/.dotfiles/bashrc ~/.bashrc
