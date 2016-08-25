@@ -1,0 +1,11 @@
+# Some useful aliases
+
+[alias]
+  co = checkout
+  cob = checkout -b
+  ci = commit
+  st = status
+  s = status
+  br = branch
+  hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+  undo = "!f() { \\\n    git reset --hard $(git rev-parse --abbrev-ref HEAD)@{${1-1}}; \\\n}; f"
