@@ -4,3 +4,6 @@
 [submodule "external/dircolors-solarized"]
 	path = external/dircolors-solarized
 	url = https://github.com/seebi/dircolors-solarized.git
+[submodule "external/peda"]
+	path = external/peda
+	url = https://github.com/longld/peda.git
