@@ -11,6 +11,8 @@ alias gd='git diff'
 alias upd='sudo apt update'
 alias upg='sudo apt full-upgrade'
 
+export PATH="$HOME/.local/bin:$PATH"
+
 function tbb {
     cd Dev/bin/tor-browser_en-US
     ./start-tor-browser.desktop
