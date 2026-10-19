@@ -12,6 +12,7 @@ ln -s ~/.dotfiles/tmux.conf ~/.tmux.conf || true
 ln -s ~/.dotfiles/gdbinit ~/.gdbinit || true
 ln -s ~/.dotfiles/external/dircolors-solarized/dircolors.256dark ~/.dircolors || true
 
+touch ~/.gitconfig
 if ! grep "dotfiles" ~/.gitconfig
 then
     echo '[include]' >> ~/.gitconfig
